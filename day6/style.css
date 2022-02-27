@@ -1,0 +1,31 @@
+.section-title{
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+}
+
+.section-subtitle{
+  margin:0;
+  margin-bottom:1rem;
+}
+.categories{
+  displa: grid;
+  grid-template-column: repeat(4,1fr);
+  column-gep: 1rem;
+}
+
+.category{
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 8px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor: pointer;
+  background-size:contain;
+  position: relative;
+  color:white;
+}
+
+.logo {
+  height:30px;
+}
