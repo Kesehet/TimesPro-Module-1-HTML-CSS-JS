@@ -1,0 +1,268 @@
+a {
+  color: white !important;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 600 !important;
+}
+
+.color-black,
+.color-black:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+  width: 44%;
+  height: 8vh;
+}
+.color-blue,
+.color-hover-blue:hover {
+  color: #fff !important;
+  background-color: #2196f3 !important;
+}
+
+.color-blurry,
+.color-hover-blurry:hover {
+  color: #fff !important;
+  background-color: #0000008f !important;
+}
+
+.color-text-blue,
+.color-hover-text-blue:hover {
+  color: #2196f3 !important;
+}
+
+.color-text-white,
+.color-hover-text-white:hover {
+  color: #fff !important;
+}
+
+.in-absolute-container-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+.in-absolute-container-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.in-absolute-container-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+}
+.in-absolute-container-display-topmiddle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0%);
+}
+.in-absolute-container-display-bottommiddle {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0%);
+}
+.in-absolute-container-display-bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(0%, -50%);
+}
+.absolute-display-container:hover .absolute-display-hover {
+  display: block;
+}
+
+.absolute-tooltip,
+.absolute-display-container {
+  position: relative;
+}
+
+.margin-left {
+  margin-left: 8px;
+}
+.margin-left-plus {
+  margin-left: 16px;
+}
+
+.margin-left-plus-plus {
+  margin-left: 34px;
+}
+
+.margin-right {
+  margin-right: 8px;
+}
+.margin-right-plus {
+  margin-right: 16px;
+}
+
+.margin-right-plus-plus {
+  margin-right: 106px;
+}
+
+.padding {
+  padding: 8px;
+}
+.padding-plus {
+  padding: 16px;
+}
+.padding-plus-plus {
+  padding: 32px;
+}
+
+.box-holder {
+  padding: 0.01em 16px;
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
+.resp-col {
+  float: left;
+  width: 100%;
+}
+.resp-col.s1 {
+  width: 8.33333%;
+}
+.resp-col.s2 {
+  width: 16.66666%;
+}
+.resp-col.s3 {
+  width: 24.99999%;
+}
+.resp-col.s4 {
+  width: 33.33333%;
+}
+.resp-col.s5 {
+  width: 41.66666%;
+}
+.resp-col.s6 {
+  width: 49.99999%;
+}
+.resp-col.s7 {
+  width: 58.33333%;
+}
+.resp-col.s8 {
+  width: 66.66666%;
+}
+.resp-col.s9 {
+  width: 74.99999%;
+}
+.resp-col.s10 {
+  width: 83.33333%;
+}
+.resp-col.s11 {
+  width: 91.66666%;
+}
+.resp-col.s12 {
+  width: 99.99999%;
+}
+@media (min-width: 601px) {
+  .resp-col.m1 {
+    width: 8.33333%;
+  }
+  .resp-col.m2 {
+    width: 16.66666%;
+  }
+  .resp-col.m3,
+  .resp-quarter {
+    width: 24.99999%;
+  }
+  .resp-col.m4,
+  .resp-third {
+    width: 33.33333%;
+  }
+  .resp-col.m5 {
+    width: 41.66666%;
+  }
+  .resp-col.m6,
+  .resp-half {
+    width: 49.99999%;
+  }
+  .resp-col.m7 {
+    width: 58.33333%;
+  }
+  .resp-col.m8,
+  .resp-twothird {
+    width: 66.66666%;
+  }
+  .resp-col.m9,
+  .resp-threequarter {
+    width: 74.99999%;
+  }
+  .resp-col.m10 {
+    width: 83.33333%;
+  }
+  .resp-col.m11 {
+    width: 91.66666%;
+  }
+  .resp-col.m12 {
+    width: 99.99999%;
+  }
+}
+@media (min-width: 993px) {
+  .resp-col.l1 {
+    width: 8.33333%;
+  }
+  .resp-col.l2 {
+    width: 16.66666%;
+  }
+  .resp-col.l3 {
+    width: 24.99999%;
+  }
+  .resp-col.l4 {
+    width: 33.33333%;
+  }
+  .resp-col.l5 {
+    width: 41.66666%;
+  }
+  .resp-col.l6 {
+    width: 49.99999%;
+  }
+  .resp-col.l7 {
+    width: 58.33333%;
+  }
+  .resp-col.l8 {
+    width: 66.66666%;
+  }
+  .resp-col.l9 {
+    width: 74.99999%;
+  }
+  .resp-col.l10 {
+    width: 83.33333%;
+  }
+  .resp-col.l11 {
+    width: 91.66666%;
+  }
+  .resp-col.l12 {
+    width: 99.99999%;
+  }
+}
+
+.form-input {
+  border-radius: 5%;
+  border-color: #555;
+  border-width: 3px;
+  width: 100%;
+  min-height: 40px;
+  margin: 16px;
+}
